@@ -1,0 +1,46 @@
+header {
+    background-color: #616161;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 60vh;
+}
+
+.leftside {
+    background-color: lightgrey;
+    padding: 1rem;
+}
+
+.rightside {
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    height: 20vh;
+    color: white;
+    padding: 1rem;
+}
