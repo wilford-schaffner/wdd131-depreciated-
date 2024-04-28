@@ -1,0 +1,50 @@
+header h1 {
+    color: white;
+    background-color: rgb(28, 153, 255);
+    padding: 1em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 243, 255);
+    padding: 1em 2em;
+    font-size: x-large;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(28, 153, 255);
+}
+
+nav :hover {
+    background-color: rgb(28, 153, 255);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    grid-gap: 1em;
+}
+
+.card {
+    max-height: 80%;
+    border-radius: 1em;
+    border-width: 2px;
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+}  
+
+.leftCardContent {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
