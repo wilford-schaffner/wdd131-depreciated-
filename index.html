@@ -6,11 +6,10 @@
     <title>Wilford's Homepage</title>
     <link rel="stylesheet" href="styles/base.css">
     <meta name="author" content="Wilford Schaffner" />
-    <meta
-      name="description"
-      content="This page is a hub of information about the design work of Wilford Schaffner in the
+    <meta name="description" content="This page is a hub of information about the design work of Wilford Schaffner in the
       class of WDD 131 - Dynamic Web Fundamentals. It also gives a brief description about the author,
       as well as ways to contact and or view more about him." />
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <header>
     <h1>WDD 131 Dynamic Web Fundamentals - Wilford Schaffner</h1>
@@ -23,31 +22,48 @@
 </header>
 <body>
     <main>
-        <div class="card">
+        <div class="card" >
             <h2>About Me</h2>
             <div class="leftCardContent">
-                <p>Hey! My name is Wilford Schaffner and I'm a UX/UI Designer living in Prosper, TX. My wife, my daughter and I love
-                    spending time together and going outside. I really love the opportunities technology brings into my life and how it
-                    helps me serve those I love the most. My interest in UX Design and Graphic Design actually started because of
-                    editing some videos and doing some small projects for my church, after that I really wanted to combine my passion
-                    for visual design and for serving others so I started my work in UX. I am very detail oriented so I really enjoy
-                    solving user pain points by honing in this skill. I love music, my family, and nature, and anything that can make
-                    any of those three things more enjoyable.
-                </p>
-                <img src="images/meinwhite.jpg" alt="Wilford Schaffner standing in front of a building in a white shirt for a portrait photo.">
+                <div class="paragraph-wrapper">
+                    <p class="paragraph-style">Hey! My name is Wilford Schaffner and I'm a UX/UI Designer living in Prosper,
+                        TX. My wife, my daughter and I love
+                        spending time together and going outside. I really love the opportunities technology brings into my
+                        life and how it
+                        helps me serve those I love the most. My interest in UX Design and Graphic Design actually started
+                        because of
+                        editing some videos and doing some small projects for my church, after that I really wanted to
+                        combine my passion
+                        for visual design and for serving others so I started my work in UX. I am very detail oriented so I
+                        really enjoy
+                        solving user pain points by honing in this skill. I love music, my family, and nature, and anything
+                        that can make
+                        any of those three things more enjoyable.
+                    </p>
+                </div>
+                <div class="img-outer-wrapper" style="margin: auto;">
+                    <div class="img-inner-wrapper">
+                        <img class="img-style" src="images/meinwhite.jpg"
+                            alt="Wilford Schaffner standing in front of a building in a white shirt for a portrait photo.">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="card">
             <h2>Web Dev/Design Resources</h2>
-            <ul>
-                <li href="https://thenounproject.com/">The Noun Project</li>
-                <li href="https://developer.mozilla.org/en-US/">MDN Web Docs</li>
-                <li href="https://www.w3schools.com/">W3 Schools</li>
-            </ul>
+            <div class="rightCardContent">
+                <div class="links">
+     </div>               <ul>
+                        <li><a href="https://thenounproject.com/">The Noun Project</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
-    <footer>
-        <p>&copy; <span id="currentyear"></span> Wilford Schaffner United States</p>
+    <footer style="position: absolute; bottom: 0px;">
+        <p>&copy; Wilford Schaffner United States</p>
         <p id="lastModified"></p>
     </footer>
 </body>
