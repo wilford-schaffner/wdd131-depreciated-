@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var currentYear = new Date().getFullYear();
-    document.write(currentYear);
-});
 
 document.addEventListener("DOMContentLoaded", function() {
     var lastModified = document.lastModified;
