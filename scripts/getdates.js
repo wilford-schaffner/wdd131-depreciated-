@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     var lastModified = document.lastModified;
     var lastModifiedElement = document.getElementById("lastModified");
